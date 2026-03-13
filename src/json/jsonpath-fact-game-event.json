@@ -1,0 +1,18 @@
+{
+  "jsonpaths": [
+    "$['event_id']",
+    "$['session_id']",
+    "$['user_id']",
+    "$['game_id']",
+    "$['event_type']",
+    "$['event_timestamp']",
+    "$['score_delta']",
+    "$['coins_earned']",
+    "$['level_achieved']",
+    "$['metadata']",
+    "$['__op']",
+    "$['__ts_ms']",
+    "$['__source_ts_ms']",
+    "$['__source_lsn']"
+  ]
+}

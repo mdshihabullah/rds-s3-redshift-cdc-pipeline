@@ -1,0 +1,17 @@
+{
+  "jsonpaths": [
+    "$['user_id']",
+    "$['username']",
+    "$['email']",
+    "$['country']",
+    "$['account_level']",
+    "$['total_playtime_hours']",
+    "$['last_login_at']",
+    "$['created_at']",
+    "$['updated_at']",
+    "$['__op']",
+    "$['__ts_ms']",
+    "$['__source_ts_ms']",
+    "$['__source_lsn']"
+  ]
+}
