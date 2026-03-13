@@ -1,6 +1,13 @@
 # CDC SCD Type 2 Pipeline
 
-Real-time Change Data Capture pipeline with SCD Type 2 history tracking for gaming analytics.
+A comprehensive CDC pipeline implementing SCD Type 2 methodology for real-time dimensional modeling. The solution leverages PostgreSQL logical replication with Debezium connectors, AWS MSK for event streaming, S3 for durable storage, and Redshift Serverless for analytics. Features include automated merge logic for SCD2 handling, JSONPath mappings for efficient COPY operations, and a gaming data simulator for end-to-end testing. Infrastructure is managed through shell scripts with IAM roles for secure service integration.
+
+## Key Features (bullet points)
+- **Real-time CDC**: Sub-second latency from source changes to data lake
+- **SCD Type 2**: Complete history tracking with valid_from/valid_to timestamps
+- **Serverless Architecture**: AWS MSK, S3, and Redshift Serverless for scalability
+- **Data Simulator**: Realistic test data generation for gaming analytics with users, games, sessions
+- **Infrastructure as Code**: Shell scripts for reproducible deployments
 
 ## Architecture
 
